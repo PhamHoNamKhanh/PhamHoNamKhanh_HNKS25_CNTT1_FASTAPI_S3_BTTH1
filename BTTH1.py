@@ -49,6 +49,5 @@ def health():
 @app.get("/books")
 def book():
     return {
-        "list books"
         "data": books
     }
